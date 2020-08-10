@@ -45,7 +45,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.lbXml = new System.Windows.Forms.Label();
             this.lbGoodBacth = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -205,21 +204,11 @@
             this.lbGoodBacth.TabIndex = 14;
             this.lbGoodBacth.Text = "0";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(27, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1063, 514);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbGoodBacth);
             this.Controls.Add(this.lbXml);
             this.Controls.Add(this.label8);
@@ -266,7 +255,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lbXml;
         private System.Windows.Forms.Label lbGoodBacth;
-        private System.Windows.Forms.Button button1;
     }
 }
 
